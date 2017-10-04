@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        PhotoViewer.show('https://www.vanidad.es/wp-content/uploads/2017/09/emoji-01-768x768.jpg', 'Optional Title');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
